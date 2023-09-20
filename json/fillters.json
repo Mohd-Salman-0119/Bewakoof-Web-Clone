@@ -1,0 +1,107 @@
+{
+  "filterVanue": [
+    "Category",
+    "T-Shirt",
+    "Boxer",
+    "Shirts",
+    "Shorts",
+    "Kurta",
+    "Joggers",
+    "Track Pant",
+    "Jeans",
+    "Vest"
+  ],
+  "filtersizes": [
+    "Sizes",
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL",
+    "3XL",
+    "4XL",
+    "5XL",
+    "6XL",
+    "28",
+    "30",
+    "32"
+  ],
+  "filterbrand": [
+    "Brand",
+    "Bewakoof",
+    "Snith",
+    "Hangup",
+    "Campus Sutra",
+    "Dillinger",
+    "Difference Of Opinion",
+    "Alcis",
+    "Breakbounce",
+    "Alstyle",
+    "Puma",
+    "ASICS",
+    "Fila",
+    "New Balance",
+    "Under Armour",
+    "Reebok",
+    "Adidas",
+    "Nike"
+  ],
+  "filterColors":[
+     "Color",
+     "Red",
+     "Blue",
+     "Black",
+     "Brown",
+     "White"
+  ],
+  "filterDesign":[
+     "Design",
+     "Solid",
+     "Printed",
+     "Graphic Print",
+     "Plain",
+     "Typography"
+  ],
+  "filterfit":[
+     "Fit",
+     "Regular Fit",
+     "Slim Fit",
+     "Oversized",
+     "Relaxed Fit",
+     "Skinny Fit",
+     "Slim",
+     "Loose Fit"
+  ],
+  "filtersleeve":[
+     "Sleeve",
+     "Half Sleeve",
+     "Full Sleeve",
+     "Sleeveless",
+     "Short Sleeve"
+
+  ],
+  "filterratings":[
+     "Ratings",
+     "4.5 and above",
+     "4 and above",
+     "3.5 and above",
+     "3 and above",
+     "2.5 and above",
+     "2 and above",
+     "1.5 and above"
+
+  ],
+  "filterdiscount":[
+     "Discount",
+     "10% Or More",
+     "20% Or More",
+     "30% Or More",
+     "40% Or More",
+     "50% Or More",
+     "60% Or More",
+     "70% Or More"
+     
+
+  ]
+}

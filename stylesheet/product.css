@@ -1,0 +1,46 @@
+.heading-category{
+     
+     margin: auto
+}
+.filterSize span{
+     text-transform: capitalize;
+}
+.filterBoxHeading{
+     display: grid;
+     grid-template-columns: 350px 80%;
+     position: relative;
+    
+}
+.fillerBoxMain select{
+     width: 85%;
+     border: none;
+     border-bottom: 1px solid #ccc;
+     margin: 2px;
+}
+.sortPrice{
+     position: relative;
+     right: 3%;
+     left: 10%;
+     padding: 16px 18px;
+     border: none;
+     border-bottom: 1px solid #ccc;
+     margin: 2px;
+}
+.product-card- > div{
+
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.product-card- > div:hover{
+     opacity: 0.8;
+}
+.product-card-{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     width: 100%;
+     gap: 10px;
+     position: relative;
+     right: 0;
+     top: .5%;
+     overflow: auto;
+     /* width: 55%; */
+}
