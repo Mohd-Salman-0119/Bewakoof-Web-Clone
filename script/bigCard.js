@@ -1,4 +1,4 @@
-fetch('/home/json/big-images.json')
+fetch('/json/big-images.json')
 
      .then(response => response.json())
      .then(data => {
@@ -26,6 +26,7 @@ fetch('/home/json/big-images.json')
 
           const toHotToBeMissed = document.querySelector('.hot-to-be-missed');
           const MissedContainer = document.createElement('div');
+          MissedContainer.setAttribute('class', 'toHotToMiss');
           MissedContainer.classList.add('grid2-1fr')
           const tooBeMissed = data.tooBeMissed;
 

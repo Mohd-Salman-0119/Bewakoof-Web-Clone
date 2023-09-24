@@ -3,7 +3,7 @@
 // import { initSwiper }  from "./swiperWrapper";
 
 
-fetch('/home/json/swipers.json')
+fetch('/json/swipers.json')
   .then(response => response.json())
   .then(data => {
 
@@ -40,7 +40,7 @@ swiperWrapper('.first-swiper-slider')
 
 function swiperWrapper(slide){
 var swiper = new Swiper(slide, {
-  slidesPerView: 3,
+  slidesPerView: 1,
   spaceBetween: 15,
   loop: false,
   loopedSlides: 4,
@@ -57,6 +57,17 @@ var swiper = new Swiper(slide, {
     delay: 2600, // Auto-play delay in milliseconds (2.5 seconds)
     disableOnInteraction: false, // Enable auto-play even when the user interacts with the slider
   },
+  breakpoints:{
+    990:{
+      slidesPerView: 3
+    },
+    720:{
+      slidesPerView: 2
+    },
+    260:{
+      slidesPerView: 1
+    }
+  }
 
 });
 }

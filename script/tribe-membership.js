@@ -1,5 +1,5 @@
 // Tribe Memembership
-fetch('/home/json/small-card.json')
+fetch('/json/small-card.json')
   .then(res => res.json())
   .then(data => {
     const tribeOffers = data.tribeOffers;

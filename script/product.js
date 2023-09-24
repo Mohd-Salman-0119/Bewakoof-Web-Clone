@@ -1,4 +1,4 @@
-fetch('/temp/fillters.json')
+fetch('/json/fillters.json')
      .then(res => res.json())
      .then(data => {
 
@@ -32,7 +32,7 @@ function filltersFunction(data, referance, name) {
 
 }
 
-fetch('/home/json/products.json')
+fetch('/json/products.json')
      .then(res => res.json())
      .then(data => {
 
@@ -77,7 +77,7 @@ if (key === 'Mens') {
 
 
 function productDataShow(data) {
-     const cardContainer = document.querySelector('.product-card-')
+     const cardContainer = document.querySelector('.productCategoryGridWrapper')
      cardContainer.innerHTML = ""
      data.forEach((ele, index) => {
           // console.log(ele);
@@ -123,7 +123,7 @@ function productDataShow(data) {
           producDisc.classList.add('font10px')
           producDisc.classList.add('shade-gray')
 
-          producDisc.classList.add('right8px')
+          // producDisc.classList.add('right8px')
           producDisc.classList.add('top4px')
 
           producDisc.innerHTML = ele.name;
@@ -141,14 +141,14 @@ function productDataShow(data) {
           let productPriceBox = document.createElement('div');
           productPriceBox.classList.add('productPriceBox')
           productPriceBox.classList.add('d-flex')
-          productPriceBox.classList.add('mr-8px')
+          // productPriceBox.classList.add('mr-8px')
           productPriceBox.classList.add('pd5px')
 
 
           let discountedPrice = document.createElement('div');
           discountedPrice.classList.add('discountedPrice')
           discountedPrice.classList.add('p-balck')
-          discountedPrice.classList.add('font16px')
+          discountedPrice.classList.add('font14px')
 
           discountedPrice.classList.add('font-weight-6')
 
@@ -165,7 +165,7 @@ function productDataShow(data) {
           actualPriceText.classList.add('shade-gray')
           actualPriceText.classList.add('font12px')
           actualPriceText.classList.add('left5px')
-          actualPriceText.classList.add('top4px')
+          // actualPriceText.classList.add('top4px')
           actualPriceText.classList.add('line-through-text')
 
           actualPriceText.innerHTML = `&#x20B9;${ele.price2}`
@@ -173,7 +173,7 @@ function productDataShow(data) {
           let discountPresent = document.createElement('div');
           discountPresent.classList.add('discountPresent')
           discountPresent.classList.add('discount-green')
-          discountPresent.classList.add('font12px')
+          discountPresent.classList.add('font10px')
           discountPresent.classList.add('left5px')
           discountPresent.classList.add('top4px')
 

@@ -1,4 +1,4 @@
-fetch('/home/json/supportData.json')
+fetch('/json/supportData.json')
      .then(response => response.json())
      .then(data => {
 
@@ -204,4 +204,4 @@ fetch('/home/json/supportData.json')
 
 
 
-     })
+})

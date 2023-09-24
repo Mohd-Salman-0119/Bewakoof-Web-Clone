@@ -53,6 +53,11 @@
           transform: translateX(0%);
           opacity: 1;
      }
+
+     .trending-categories-images>div{
+          display: grid;
+          grid-template-columns: repeat(4,1fr);
+     }
 }
 
 @media screen and (max-width: 1170px) {
@@ -88,6 +93,13 @@
      .swiper-button-prev:after{
           padding: 7px 10px;
           font-size: 10px;
+     }
+     .trending-categories-images>div{
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+     }
+     .reponsive-none{
+          display: none;
      }
     
 }

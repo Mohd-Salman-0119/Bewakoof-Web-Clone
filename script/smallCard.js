@@ -1,5 +1,5 @@
 
-fetch('/home/json/small-card.json')
+fetch('/json/small-card.json')
 
   .then(response => response.json())
   .then(data => {
@@ -33,6 +33,7 @@ fetch('/home/json/small-card.json')
     const trendingCategoriesContainer = document.querySelector('.trending-categories-images')
     const categoriesContainer = document.createElement('div');
     categoriesContainer.classList.add('grid6-1fr')
+    // categoriesContainer.setAttribute('class', 'categoriesCard')
     const trendingCategories = data.trendingCategories;
 
     trendingCategories.forEach(ele =>{

@@ -79,7 +79,7 @@
      position: relative;
      left: 150px;
      top: 100px;
-     z-index: 999;
+     z-index: 1;
 }
 
 .download-app-textContent div:nth-child(1) {
@@ -298,7 +298,7 @@ body .tribe-section {
      visibility: visible;
 }
 
-.success-color {
+/* .success-color {
      color: green;
      text-decoration: underline;
-}
+} */

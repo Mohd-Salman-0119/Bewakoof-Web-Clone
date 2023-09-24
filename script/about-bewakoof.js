@@ -1,4 +1,4 @@
-fetch('/home/json/about-bewakoof.json')
+fetch('/json/about-bewakoof.json')
 .then(responce => responce.json())
 .then(data => {
      const aboutBfr = data.aboutBewakoof;

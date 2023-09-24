@@ -445,9 +445,10 @@ span {
 .filterDesign{
      text-decoration: none;
      display: block;
-     width: 25%;
-     padding: 16px 18px;
-     
+     width: 100%;
+     padding: 16px 18px; 
+     border: none;
+     border-bottom: 1px solid #ccc;
 }
 .fa-chevron-down{
      font-size: 16px;
